@@ -5,3 +5,6 @@ from Calculadora import Calculadora
 class CalculadoraTest(TestCase):
     def test_sumar(self):
         self.assertEqual(Calculadora.sumar(self, " "), 0, "Cadena vacia")
+
+    def test_sumar_unaCadena(self):
+        self.assertEqual(Calculadora().sumar("1"), 1, "Un numero")
