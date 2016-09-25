@@ -16,4 +16,4 @@ class CalculadoraTest(TestCase):
 
 
     def test_sumar_cadenaConDosNumeros(self):
-        self.assertEqual(Calculadora().sumar("1, 3"), 4, "Dos numeros")
+        self.assertEqual(Calculadora().sumar("1,3"), 4, "Dos numeros")
